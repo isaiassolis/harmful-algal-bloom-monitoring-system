@@ -1,47 +1,53 @@
-# Contexto, participación y límites de divulgación
+# Proyecto Marea Roja — Investigación, desarrollo y evolución tecnológica
 
-## Marco del proyecto
+## El proyecto
 
-Participé en el **Proyecto Marea Roja**, cuyo título técnico en los entregables históricos de 2011 fue *«Prototipo innovador para el pronóstico de fitoplancton potencialmente nocivo basado en herramientas bayesianas y biomarcadores lipídicos»*.
+Participé en el **Proyecto Marea Roja**, una iniciativa de investigación y desarrollo tecnológico enfocada en el estudio de **floraciones algales potencialmente nocivas**.
 
-El trabajo tuvo colaboración multidisciplinaria. Entre las entidades identificadas en los documentos se encuentran **Comercializadora de Soluciones Móviles, S. A. de C. V.**, **Universidad Autónoma de Campeche** y **Universidad Riviera**. Menciono estas instituciones únicamente como contexto documentado, sin atribuirles responsabilidades adicionales no verificadas.
+El trabajo comenzó en **2011**, bajo el título **«Prototipo innovador para el pronóstico de fitoplancton potencialmente nocivo basado en herramientas bayesianas y biomarcadores lipídicos»**.
+
+Fue un esfuerzo multidisciplinario en el que participaron organizaciones como **Comercializadora de Soluciones Móviles, S. A. de C. V.**, la **Universidad Autónoma de Campeche** y la **Universidad Riviera**.
 
 ## Mi participación
 
-Actué como **Ingeniero de Hardware y Software y Líder Técnico**. El desarrollo también fue parte de mi trabajo de investigación durante los estudios de **Maestría en Ingeniería Mecatrónica**.
+Me desempeñé como **ingeniero de hardware y software y líder técnico**, participando en el desarrollo y la integración de componentes mecatrónicos y computacionales.
 
-## Fases de desarrollo
+El proyecto también estuvo relacionado con mis **estudios de Maestría en Ingeniería Mecatrónica**.
 
-### Primera fase: laboratorio
+## Primera etapa — Prototipo de laboratorio
 
-Los documentos históricos detallan un modelo bayesiano, variables ambientales, software de inferencia, prototipo mecatrónico de adquisición de imágenes e integración de módulos. Se conservan como documentación interna y no se suben aquí.
+La primera etapa combinó varias disciplinas:
 
-### Segunda fase: dispositivo embarcado
+- Diseño de un prototipo mecatrónico para adquisición automatizada de imágenes.
+- Integración de sensores, actuadores y mecanismos de posicionamiento.
+- Procesamiento computacional de información de muestras.
+- Investigación sobre inferencia bayesiana y variables ambientales.
+- Integración de los componentes de hardware y software.
 
-A partir de mi experiencia directa, describo un dispositivo autónomo para embarcaciones menores que realizaba análisis y enviaba resultados georreferenciados mediante **GPS** y **GPRS** hacia una plataforma de monitoreo. Fue construido, sometido a pruebas de campo y vendido a una empresa privada.
+## Segunda etapa — Dispositivo autónomo
 
-Esta segunda fase todavía no está respaldada en este repositorio por documentación externa o ensayos públicos; es parte de mi testimonio profesional sobre el desarrollo.
+El proyecto evolucionó hacia un dispositivo autónomo para **embarcaciones menores**, con adquisición y análisis de información a bordo.
 
-## Resultado y decisión de continuidad
+El sistema utilizaba **GPS** para georreferenciar resultados y **GPRS** para enviarlos a una plataforma central de monitoreo.
 
-La solución se comercializó como producto final. Posteriormente se abandonó su utilización al concluirse, dentro del contexto analizado, que la prevención de las floraciones algales nocivas implicaba mayores costos que la respuesta posterior a esos eventos.
+El equipo fue **construido, probado en campo y comercializado a una empresa privada**.
 
-No extrapolo esa conclusión como regla general del monitoreo ambiental ni como evaluación económica aplicable a todos los sectores o situaciones.
+## Evaluación comercial
 
-## Qué se excluye deliberadamente
+Aunque el producto llegó a venderse, posteriormente el cliente dejó de utilizarlo por una evaluación de costos asociados a las medidas preventivas frente a la respuesta a eventos de floraciones algales.
 
-- Algoritmos, modelos implementados y parámetros internos.
-- Diseño y planos de laboratorio o del dispositivo de campo.
-- Diagramas eléctricos, PCB, firmware, protocolos internos y código propietario.
-- Datos de clientes, identidad de la empresa compradora y documentos contractuales.
-- Resultados cuantitativos de campo que no estén disponibles para divulgación.
+Esta decisión correspondió al contexto particular del proyecto y no representa una conclusión general sobre la utilidad del monitoreo ambiental.
 
-## Fuentes documentales consultadas (no redistribuidas)
+## Antecedentes técnicos
 
-1. E11_F4 — Modelo primario de exploración computacional basado en modelo bayesiano (2011).
-2. E12_F4 — Sustento de las variables del modelo bayesiano (2011).
-3. E13_F4 — Documentación del software del modelo bayesiano (2011).
-4. E15_F5 — Construcción del prototipo (2011).
-5. E16_F6 — Diseño del sistema computacional e integración de módulos (2011).
+La investigación original incluyó entregables relacionados con:
 
-Se citan como antecedentes, pero **no se adjuntan**. Este caso se redactó deliberadamente sin reproducir esquemas y diseños sujetos a derechos industriales.
+- Modelado de exploración computacional mediante redes bayesianas.
+- Selección y sustento de variables ambientales.
+- Software para modelos de inferencia.
+- Construcción del prototipo mecatrónico.
+- Integración de módulos del sistema computacional.
+
+La documentación técnica original, los algoritmos, los planos y el código del producto no forman parte de este repositorio.
+
+[← Volver al proyecto](../README.md)
