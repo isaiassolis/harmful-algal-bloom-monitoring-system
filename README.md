@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Harmful Algal Bloom Monitoring System — intelligent environmental monitoring" />
+  <img src="assets/banner.svg" width="100%" alt="Proyecto Marea Roja — Monitoreo ambiental e ingeniería mecatrónica" />
 </p>
 
 <p align="center">
@@ -9,78 +9,92 @@
   <img src="https://img.shields.io/badge/Field-Tested-087F8C?style=for-the-badge" alt="Field tested" />
 </p>
 
-# Proyecto Marea Roja: sistema inteligente de monitoreo de floraciones algales nocivas
+# Proyecto Marea Roja — Sistema inteligente de monitoreo ambiental
 
-**Investigación, ingeniería de hardware y software, sistemas inteligentes y desarrollo de producto**
+**Liderazgo técnico · Ingeniería de hardware y software · Investigación aplicada y desarrollo de producto**
 
-Mi participación en el **Proyecto Marea Roja** combinó ingeniería de hardware y software con liderazgo técnico. Trabajé en una solución orientada al análisis y seguimiento de **floraciones algales nocivas (FAN)**, integrando adquisición de información, procesamiento computacional y modelos probabilísticos.
+Participé como **ingeniero de hardware y software y líder técnico** en el desarrollo de un sistema para el estudio y monitoreo de **floraciones algales nocivas (FAN)**, conocidas comúnmente como marea roja.
 
-El proyecto evolucionó desde un **prototipo mecatrónico de laboratorio** hacia un **dispositivo autónomo para embarcaciones menores**, con análisis a bordo y transmisión de información georreferenciada a una plataforma de monitoreo. El dispositivo fue construido físicamente, probado en campo y **comercializado a una empresa privada**.
+El proyecto comenzó con un **prototipo mecatrónico de laboratorio** que integraba adquisición de imágenes, procesamiento computacional y modelos de inferencia. Posteriormente evolucionó hacia un **dispositivo autónomo para embarcaciones menores**, capaz de procesar información y transmitir resultados georreferenciados.
 
-> **Alcance de este repositorio:** caso de estudio profesional de alto nivel. Los algoritmos, diseños del laboratorio, planos mecánicos, circuitos, código y detalles internos del producto no se publican por restricciones de propiedad industrial.
+El dispositivo fue **construido, probado en campo y comercializado a una empresa privada**. Esta experiencia conectó la investigación académica con la ingeniería de un producto físico.
 
 ## El desafío
 
-El estudio de floraciones algales potencialmente nocivas requiere observar variables ambientales y analizar muestras. El reto tecnológico fue integrar varias disciplinas en una solución capaz de apoyar la adquisición, análisis y comunicación de información desde laboratorio y, posteriormente, desde entornos de operación en campo.
+El análisis de floraciones algales nocivas requiere estudiar muestras y variables ambientales, interpretar información y relacionar los resultados con el lugar donde se obtuvieron.
 
-## Fase 1 · Prototipo de laboratorio
+Nuestro reto fue integrar **mecatrónica, electrónica, software y análisis computacional** para facilitar la adquisición y el seguimiento de datos, primero en un entorno de laboratorio y después en condiciones de campo.
 
-Participé en el desarrollo e integración de un sistema mecatrónico para el análisis de muestras, con elementos de:
+## De la investigación al dispositivo autónomo
 
-- **Adquisición automatizada de imágenes** mediante un sistema de microscopía y posicionamiento.
-- **Mecatrónica y electrónica**, con actuadores, motores y sensores para el movimiento y la captura.
-- **Procesamiento de imágenes**, utilizado como parte del análisis de muestras.
-- **Red bayesiana**, planteada como herramienta de inferencia a partir de variables ambientales y de calidad del agua.
+### Primera etapa — Prototipo de laboratorio
 
-Los entregables técnicos históricos describen estas líneas de trabajo, así como el diseño del software y la integración de módulos. La documentación interna permanece fuera del repositorio público.
+Trabajamos en el desarrollo de un sistema mecatrónico orientado al análisis de muestras y a la adquisición automatizada de información.
 
-## Fase 2 · Dispositivo autónomo en campo
+Entre los componentes del trabajo se encontraban:
 
-Posteriormente trabajé en la evolución del proyecto hacia un **dispositivo autónomo instalado en embarcaciones menores**. Esta segunda fase permitió:
+- **Microscopía y captura de imágenes:** adquisición de imágenes con mecanismos de posicionamiento.
+- **Mecatrónica y electrónica:** integración de motores, actuadores y sensores para la operación del prototipo.
+- **Procesamiento de imágenes:** herramientas computacionales para apoyar el análisis de muestras.
+- **Modelado bayesiano:** estudio de variables ambientales y de calidad del agua mediante técnicas de inferencia.
 
-1. Realizar adquisición y análisis de información desde el dispositivo.
-2. Asociar los resultados con coordenadas obtenidas mediante **GPS**.
-3. Transmitir datos georreferenciados mediante **GPRS**.
-4. Recibirlos en una **plataforma central de monitoreo**.
+Esta etapa formó parte de un proyecto multidisciplinario de investigación iniciado en **2011**.
 
-La existencia, pruebas en campo y comercialización de esta segunda fase se describen aquí a partir de mi experiencia directa; los documentos técnicos aportados corresponden principalmente a la primera fase.
+### Segunda etapa — Monitoreo en campo
 
-## Visión funcional del sistema
+Posteriormente participamos en la evolución del sistema hacia un **dispositivo autónomo para embarcaciones menores**.
+
+La solución integraba capacidades para:
+
+1. Adquirir y analizar información desde el propio dispositivo.
+2. Asociar los resultados con coordenadas mediante **GPS**.
+3. Enviar información georreferenciada a través de **GPRS**.
+4. Concentrar los datos recibidos en una **plataforma de monitoreo**.
+
+El desarrollo culminó en un equipo físico que fue **probado en campo y vendido a una empresa privada**.
+
+## Funcionamiento general
 
 ```mermaid
 flowchart TD
-    A[Captura y adquisición de muestras] --> B[Análisis computacional]
+    A[Captura de información y muestras] --> B[Análisis computacional]
     C[Variables ambientales] --> B
-    B --> D[Resultado de monitoreo]
+    B --> D[Resultados de monitoreo]
     D --> E[Georreferenciación GPS]
-    E --> F[Comunicación GPRS]
-    F --> G[Plataforma central de monitoreo]
+    E --> F[Transmisión GPRS]
+    F --> G[Plataforma de monitoreo]
 ```
 
-*Diagrama conceptual para explicar la función general. No representa la arquitectura ni los algoritmos propietarios.*
+## Mi participación
 
-## Mi responsabilidad
+Me desempeñé como **ingeniero de hardware y software y líder técnico**. Participé en el desarrollo, la integración tecnológica y la evolución del proyecto desde el prototipo de laboratorio hasta el dispositivo destinado a la operación en campo.
 
-Me desempeñé como **Ingeniero de Hardware y Software y Líder Técnico**. Participé en el desarrollo de los componentes tecnológicos, su integración y la evolución del proyecto desde el sistema de laboratorio hacia el dispositivo de campo.
+Este trabajo también estuvo vinculado con mis **estudios de Maestría en Ingeniería Mecatrónica**, donde participé en actividades de investigación relacionadas con el proyecto.
 
-El proyecto también formó parte de mi trabajo de investigación durante los estudios de **Maestría en Mecatrónica**. Los derechos industriales impidieron publicar los algoritmos y diseños técnicos; esta referencia no implica que haya obtenido el grado académico.
+La experiencia reunió **desarrollo de sistemas embebidos, electrónica, mecatrónica, procesamiento de información, integración de comunicaciones y liderazgo técnico**.
 
-## Resultado y aprendizaje empresarial
+## Resultados y experiencia de producto
 
-El dispositivo se **construyó, probó en campo y vendió como producto final** a una empresa privada. Más adelante dejó de utilizarse tras una evaluación del contexto económico: el costo de la prevención de FAN se consideró superior al de actuar ante estos eventos.
+El proyecto pasó por distintas etapas:
 
-Esta experiencia me mostró una lección que sigo aplicando en proyectos tecnológicos: **desarrollar un producto funcional no garantiza su continuidad comercial**. La viabilidad depende también del costo de operación, del beneficio esperado y de las decisiones del cliente.
+- **Investigación y prototipo de laboratorio**, con adquisición y procesamiento de información.
+- **Desarrollo de un dispositivo autónomo**, preparado para su uso en embarcaciones menores.
+- **Pruebas de campo** del equipo físico.
+- **Comercialización del dispositivo** a una empresa privada.
 
-No publico cifras de precisión, ahorros, costos o alcance operativo porque no contamos con evidencia cuantitativa pública suficiente para sustentarlas.
+Posteriormente, el cliente decidió dejar de utilizar la solución al evaluar la relación entre sus costos de prevención y los costos de responder a los eventos de floración algal.
 
-## Propiedad industrial y fuentes
+Esta experiencia me permitió comprender una dimensión esencial del desarrollo tecnológico: **construir una solución funcional es solo una parte del reto; su continuidad también depende de las condiciones económicas y operativas del cliente**.
 
-Este repositorio **no contiene código fuente ni documentación técnica original**. Describe únicamente el objetivo general, las fases, mi participación y los resultados que puedo comunicar públicamente. El software, los diseños y los documentos técnicos originales conservan los derechos de sus titulares.
+## Sobre el proyecto
 
-- [Contexto, atribuciones y límites de divulgación](docs/project-context.md)
-- Referencia histórica: documentos del proyecto *«Prototipo innovador para el pronóstico de fitoplancton potencialmente nocivo basado en herramientas bayesianas y biomarcadores lipídicos»* (2011).
+El trabajo de investigación original se desarrolló bajo el título **«Prototipo innovador para el pronóstico de fitoplancton potencialmente nocivo basado en herramientas bayesianas y biomarcadores lipídicos»**.
+
+Este repositorio presenta mi participación y la evolución tecnológica del proyecto. Los diseños industriales, algoritmos, código fuente y documentación técnica interna pertenecen a sus respectivos titulares.
+
+[Conocer más sobre el desarrollo y mi participación](docs/project-context.md).
 
 ---
 
-<p align="center"><strong>De la investigación al dispositivo autónomo, de las pruebas en campo a la evaluación de viabilidad comercial.</strong></p>
-<p align="center">Proyecto documentado por <a href="https://github.com/isaiassolis">Isaías Solís</a></p>
+<p align="center"><strong>De la investigación en laboratorio a un dispositivo probado y comercializado.</strong></p>
+<p align="center"><a href="https://github.com/isaiassolis">Volver a mi portafolio profesional</a></p>
