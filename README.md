@@ -19,11 +19,11 @@ El proyecto evolucionó desde un **prototipo mecatrónico de laboratorio** hacia
 
 > **Alcance de este repositorio:** caso de estudio profesional de alto nivel. Los algoritmos, diseños del laboratorio, planos mecánicos, circuitos, código y detalles internos del producto no se publican por restricciones de propiedad industrial.
 
-## 🎯 El desafío
+## El desafío
 
 El estudio de floraciones algales potencialmente nocivas requiere observar variables ambientales y analizar muestras. El reto tecnológico fue integrar varias disciplinas en una solución capaz de apoyar la adquisición, análisis y comunicación de información desde laboratorio y, posteriormente, desde entornos de operación en campo.
 
-## 🔬 Fase 1 · Prototipo de laboratorio
+## Fase 1 · Prototipo de laboratorio
 
 Participé en el desarrollo e integración de un sistema mecatrónico para el análisis de muestras, con elementos de:
 
@@ -34,7 +34,7 @@ Participé en el desarrollo e integración de un sistema mecatrónico para el an
 
 Los entregables técnicos históricos describen estas líneas de trabajo, así como el diseño del software y la integración de módulos. La documentación interna permanece fuera del repositorio público.
 
-## 🚤 Fase 2 · Dispositivo autónomo en campo
+## Fase 2 · Dispositivo autónomo en campo
 
 Posteriormente trabajé en la evolución del proyecto hacia un **dispositivo autónomo instalado en embarcaciones menores**. Esta segunda fase permitió:
 
@@ -45,7 +45,7 @@ Posteriormente trabajé en la evolución del proyecto hacia un **dispositivo aut
 
 La existencia, pruebas en campo y comercialización de esta segunda fase se describen aquí a partir de mi experiencia directa; los documentos técnicos aportados corresponden principalmente a la primera fase.
 
-## 🧭 Visión funcional del sistema
+## Visión funcional del sistema
 
 ```mermaid
 flowchart TD
@@ -59,13 +59,13 @@ flowchart TD
 
 *Diagrama conceptual para explicar la función general. No representa la arquitectura ni los algoritmos propietarios.*
 
-## 👤 Mi responsabilidad
+## Mi responsabilidad
 
 Me desempeñé como **Ingeniero de Hardware y Software y Líder Técnico**. Participé en el desarrollo de los componentes tecnológicos, su integración y la evolución del proyecto desde el sistema de laboratorio hacia el dispositivo de campo.
 
 El proyecto también formó parte de mi trabajo de investigación durante los estudios de **Maestría en Mecatrónica**. Los derechos industriales impidieron publicar los algoritmos y diseños técnicos; esta referencia no implica que haya obtenido el grado académico.
 
-## ✅ Resultado y aprendizaje empresarial
+## Resultado y aprendizaje empresarial
 
 El dispositivo se **construyó, probó en campo y vendió como producto final** a una empresa privada. Más adelante dejó de utilizarse tras una evaluación del contexto económico: el costo de la prevención de FAN se consideró superior al de actuar ante estos eventos.
 
@@ -73,7 +73,7 @@ Esta experiencia me mostró una lección que sigo aplicando en proyectos tecnol�
 
 No publico cifras de precisión, ahorros, costos o alcance operativo porque no contamos con evidencia cuantitativa pública suficiente para sustentarlas.
 
-## 🔐 Propiedad industrial y fuentes
+## Propiedad industrial y fuentes
 
 Este repositorio **no contiene código fuente ni documentación técnica original**. Describe únicamente el objetivo general, las fases, mi participación y los resultados que puedo comunicar públicamente. El software, los diseños y los documentos técnicos originales conservan los derechos de sus titulares.
 
