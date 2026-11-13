@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Proyecto Marea Roja — Monitoreo ambiental e ingeniería mecatrónica" />
+  <img src="assets/banner.svg" width="100%" alt="Proyecto Marea Roja — Robótica, visión computacional e inteligencia artificial aplicada al monitoreo ambiental" />
 </p>
 
 <p align="center">
@@ -9,92 +9,126 @@
   <img src="https://img.shields.io/badge/Field-Tested-087F8C?style=for-the-badge" alt="Field tested" />
 </p>
 
-# Proyecto Marea Roja — Sistema inteligente de monitoreo ambiental
+# Proyecto Marea Roja — Sistema inteligente de monitoreo de floraciones algales nocivas
 
-**Liderazgo técnico · Ingeniería de hardware y software · Investigación aplicada y desarrollo de producto**
+**Ingeniería mecatrónica · Robótica cartesiana · Visión computacional · Redes bayesianas · Sistemas de monitoreo**
 
-Participé como **ingeniero de hardware y software y líder técnico** en el desarrollo de un sistema para el estudio y monitoreo de **floraciones algales nocivas (FAN)**, conocidas comúnmente como marea roja.
+Participé como **ingeniero de hardware y software y líder técnico** en un proyecto de investigación y desarrollo para el monitoreo de **floraciones algales nocivas (FAN)**, conocidas como marea roja.
 
-El proyecto comenzó con un **prototipo mecatrónico de laboratorio** que integraba adquisición de imágenes, procesamiento computacional y modelos de inferencia. Posteriormente evolucionó hacia un **dispositivo autónomo para embarcaciones menores**, capaz de procesar información y transmitir resultados georreferenciados.
+Mi trabajo abarcó desde el **diseño CAD de un robot cartesiano para microscopía automatizada** hasta la integración de instrumentación científica, clasificación de dinoflagelados mediante **OpenCV**, modelado de inferencia bayesiana y desarrollo de software para un sistema autónomo de adquisición y análisis de datos.
 
-El dispositivo fue **construido, probado en campo y comercializado a una empresa privada**. Esta experiencia conectó la investigación académica con la ingeniería de un producto físico.
+Durante **tres años de desarrollo**, evolucionamos de un prototipo de laboratorio a un dispositivo físico probado en campo y una plataforma web para consultar información georreferenciada. El equipo se comercializó a una empresa privada.
 
 ## El desafío
 
-El análisis de floraciones algales nocivas requiere estudiar muestras y variables ambientales, interpretar información y relacionar los resultados con el lugar donde se obtuvieron.
+El análisis de posibles eventos de marea roja necesita combinar la observación de microorganismos con las condiciones físicas y químicas del agua. El reto era **automatizar la captura y el procesamiento de muestras, integrar instrumentos científicos y aprovechar los datos para apoyar el análisis de riesgos**.
 
-Nuestro reto fue integrar **mecatrónica, electrónica, software y análisis computacional** para facilitar la adquisición y el seguimiento de datos, primero en un entorno de laboratorio y después en condiciones de campo.
+Necesitábamos conectar en una misma solución **mecánica de precisión, electrónica, software, visión computacional, adquisición de datos y modelos probabilísticos**.
 
-## De la investigación al dispositivo autónomo
+## Primer año — Robot cartesiano, instrumentación y modelo bayesiano
 
-### Primera etapa — Prototipo de laboratorio
+### Robótica y microscopía automatizada
 
-Trabajamos en el desarrollo de un sistema mecatrónico orientado al análisis de muestras y a la adquisición automatizada de información.
+Diseñé mediante **CAD** un pequeño **robot cartesiano**, basado en coordenadas euclidianas, para automatizar el movimiento durante la adquisición de imágenes con un microscopio.
 
-Entre los componentes del trabajo se encontraban:
+Utilicé **Arduino** para controlar los movimientos y desarrollé la integración con el software de captura. Para el análisis de las imágenes trabajé con **OpenCV**, orientado a la **clasificación de dinoflagelados** presentes en las muestras.
 
-- **Microscopía y captura de imágenes:** adquisición de imágenes con mecanismos de posicionamiento.
-- **Mecatrónica y electrónica:** integración de motores, actuadores y sensores para la operación del prototipo.
-- **Procesamiento de imágenes:** herramientas computacionales para apoyar el análisis de muestras.
-- **Modelado bayesiano:** estudio de variables ambientales y de calidad del agua mediante técnicas de inferencia.
+### Integración de instrumentos científicos
 
-Esta etapa formó parte de un proyecto multidisciplinario de investigación iniciado en **2011**.
+Integré al sistema:
 
-### Segunda etapa — Monitoreo en campo
+- Una **sonda multiparamétrica** que proporcionaba **16 parámetros de calidad del agua**, comunicada con el software mediante **TTL**.
+- Un **espectrofotómetro**, conectado con el sistema de adquisición y análisis.
+- Un **microscopio** con captura de imágenes y posicionamiento automatizado.
 
-Posteriormente participamos en la evolución del sistema hacia un **dispositivo autónomo para embarcaciones menores**.
+### Inteligencia artificial y análisis de datos
 
-La solución integraba capacidades para:
+Diseñé el **modelo bayesiano** del proyecto, incluyendo la selección de variables relevantes y la preparación de información histórica.
 
-1. Adquirir y analizar información desde el propio dispositivo.
-2. Asociar los resultados con coordenadas mediante **GPS**.
-3. Enviar información georreferenciada a través de **GPRS**.
-4. Concentrar los datos recibidos en una **plataforma de monitoreo**.
+Realicé actividades de **limpieza de datos históricos**, así como la integración de información obtenida durante el entrenamiento y trabajo de laboratorio en sitio.
 
-El desarrollo culminó en un equipo físico que fue **probado en campo y vendido a una empresa privada**.
+Programé la **red bayesiana utilizando ProBT de ProBayes**, vinculándola con los datos utilizados para el análisis de las condiciones ambientales.
 
-## Funcionamiento general
+## Segundo año — Construcción del equipo y pruebas en campo
+
+En la segunda etapa construimos e integramos el equipo físico, incorporando una **microcomputadora con el software automatizado**, junto con:
+
+- El sistema de microscopía y captura.
+- El robot cartesiano y su control electrónico.
+- El espectrofotómetro.
+- La sonda multiparamétrica.
+- Los componentes de procesamiento, adquisición y análisis desarrollados durante la primera etapa.
+
+Esta integración permitió trasladar el sistema de laboratorio a un **equipo autónomo**, con el que realizamos **pruebas en sitio**.
+
+## Tercer año — Plataforma web, GPS y GPRS
+
+En la tercera etapa desarrollamos una **plataforma web de monitoreo** para recibir y consultar la información del sistema.
+
+Integramos **GPS para la georreferenciación** de las mediciones y **GPRS para su transmisión hacia tierra**, conectando el dispositivo con la plataforma de monitoreo.
+
+Así extendimos el sistema desde la captura y análisis local de muestras hasta el **seguimiento remoto de información ambiental**.
+
+## Arquitectura funcional
 
 ```mermaid
 flowchart TD
-    A[Captura de información y muestras] --> B[Análisis computacional]
-    C[Variables ambientales] --> B
-    B --> D[Resultados de monitoreo]
-    D --> E[Georreferenciación GPS]
-    E --> F[Transmisión GPRS]
-    F --> G[Plataforma de monitoreo]
+    A[Robot cartesiano CAD + Arduino] --> B[Microscopio y captura automatizada]
+    B --> C[OpenCV: análisis y clasificación]
+    D[Sonda multiparamétrica: 16 parámetros] --> E[Adquisición de datos por TTL]
+    F[Espectrofotómetro] --> G[Software de integración]
+    C --> G
+    E --> G
+    G --> H[Modelo bayesiano con ProBT]
+    H --> I[Microcomputadora y sistema autónomo]
+    I --> J[Georreferenciación GPS]
+    J --> K[Transmisión GPRS]
+    K --> L[Plataforma web de monitoreo]
 ```
+
+*Representación funcional de los componentes desarrollados a lo largo de las tres etapas.*
+
+## Tecnologías y herramientas
+
+| Área | Tecnologías y componentes |
+| :--- | :--- |
+| **Diseño mecatrónico** | CAD, robot cartesiano, coordenadas euclidianas |
+| **Control de movimiento** | Arduino |
+| **Programación** | C++, C# |
+| **Visión computacional** | OpenCV, microscopía digital |
+| **Instrumentación** | Sonda multiparamétrica de 16 parámetros, comunicación TTL, espectrofotómetro |
+| **Inteligencia artificial** | Redes bayesianas, **ProBT (ProBayes)**, selección de variables y limpieza de datos |
+| **Aplicación web** | ASP.NET |
+| **Equipo de campo** | Microcomputadora y adquisición automatizada |
+| **Telemetría** | GPS, GPRS |
 
 ## Mi participación
 
-Me desempeñé como **ingeniero de hardware y software y líder técnico**. Participé en el desarrollo, la integración tecnológica y la evolución del proyecto desde el prototipo de laboratorio hasta el dispositivo destinado a la operación en campo.
+Asumí responsabilidades directas de **diseño, programación, integración e ingeniería**, además del liderazgo técnico del proyecto.
 
-Este trabajo también estuvo vinculado con mis **estudios de Maestría en Ingeniería Mecatrónica**, donde participé en actividades de investigación relacionadas con el proyecto.
+Entre mis contribuciones estuvieron el diseño CAD del robot cartesiano, la programación del movimiento automático con Arduino, la integración de OpenCV para la clasificación de dinoflagelados, la comunicación TTL de la sonda de calidad del agua, la integración del espectrofotómetro y el diseño e implementación de la red bayesiana con ProBT.
 
-La experiencia reunió **desarrollo de sistemas embebidos, electrónica, mecatrónica, procesamiento de información, integración de comunicaciones y liderazgo técnico**.
+También participé en la construcción e integración del equipo autónomo, las pruebas en campo y el desarrollo posterior de la plataforma de monitoreo y su conectividad.
 
-## Resultados y experiencia de producto
+El proyecto estuvo relacionado con mis **estudios de Maestría en Ingeniería Mecatrónica**.
 
-El proyecto pasó por distintas etapas:
+## Resultados y evolución comercial
 
-- **Investigación y prototipo de laboratorio**, con adquisición y procesamiento de información.
-- **Desarrollo de un dispositivo autónomo**, preparado para su uso en embarcaciones menores.
-- **Pruebas de campo** del equipo físico.
-- **Comercialización del dispositivo** a una empresa privada.
+El trabajo avanzó de un sistema de laboratorio a **un equipo físico integrado**, probado en sitio, con una plataforma de monitoreo remoto. El dispositivo se **comercializó a una empresa privada**.
 
-Posteriormente, el cliente decidió dejar de utilizar la solución al evaluar la relación entre sus costos de prevención y los costos de responder a los eventos de floración algal.
+Posteriormente, el cliente decidió suspender su utilización tras evaluar los costos de prevención frente a los costos de responder a eventos de floraciones algales en su contexto operativo.
 
-Esta experiencia me permitió comprender una dimensión esencial del desarrollo tecnológico: **construir una solución funcional es solo una parte del reto; su continuidad también depende de las condiciones económicas y operativas del cliente**.
+Esta experiencia me permitió recorrer un ciclo amplio de desarrollo: **investigación, diseño mecánico, electrónica, programación, integración científica, pruebas de campo y comercialización**.
 
 ## Sobre el proyecto
 
-El trabajo de investigación original se desarrolló bajo el título **«Prototipo innovador para el pronóstico de fitoplancton potencialmente nocivo basado en herramientas bayesianas y biomarcadores lipídicos»**.
+La investigación original se desarrolló bajo el título **«Prototipo innovador para el pronóstico de fitoplancton potencialmente nocivo basado en herramientas bayesianas y biomarcadores lipídicos»**.
 
-Este repositorio presenta mi participación y la evolución tecnológica del proyecto. Los diseños industriales, algoritmos, código fuente y documentación técnica interna pertenecen a sus respectivos titulares.
+Este repositorio presenta mi participación profesional y la evolución del sistema. No distribuye código fuente, planos, circuitos ni materiales técnicos propietarios.
 
-[Conocer más sobre el desarrollo y mi participación](docs/project-context.md).
+[Conocer más sobre las etapas y mi participación](docs/project-context.md).
 
 ---
 
-<p align="center"><strong>De la investigación en laboratorio a un dispositivo probado y comercializado.</strong></p>
+<p align="center"><strong>Del diseño de un robot cartesiano al monitoreo ambiental automatizado y remoto.</strong></p>
 <p align="center"><a href="https://github.com/isaiassolis">Volver a mi portafolio profesional</a></p>
