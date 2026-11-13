@@ -8,7 +8,7 @@ El trabajo tuvo colaboración multidisciplinaria. Entre las entidades identifica
 
 ## Mi participación
 
-Actué como **Ingeniero de Hardware y Software y Líder Técnico**. El desarrollo también fue parte de mi trabajo de investigación durante los estudios de **Maestría en Mecatrónica**; no publico la tesis ni afirmo un grado académico obtenido.
+Actué como **Ingeniero de Hardware y Software y Líder Técnico**. El desarrollo también fue parte de mi trabajo de investigación durante los estudios de **Maestría en Ingeniería Mecatrónica**.
 
 ## Fases de desarrollo
 
